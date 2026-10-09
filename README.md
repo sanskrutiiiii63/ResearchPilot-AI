@@ -64,3 +64,23 @@ Queries use equality filters only, so no composite indexes are required.
 Frontend: Vercel or Firebase Hosting (set the `VITE_*` variables). Backend: Render or similar. On the host, use
 `FIREBASE_PROJECT_ID`, `FIREBASE_CLIENT_EMAIL` and `FIREBASE_PRIVATE_KEY` instead of the JSON file, set
 `CLIENT_URL` to your frontend URL, and add that domain under Authentication > Settings > Authorized domains.
+## 👥 Team & Work Distribution
+
+ResearchPilot AI is a group project organized into four functional areas.
+
+| Team Member | Assigned Responsibility | Scope |
+|---|---|---|
+| Sanskruti Wadkar | Integration & Documentation | Repository management, project integration, and documentation |
+| Shruti Hagwanepatil | Frontend Development | React interface, dashboard, and user interactions |
+| Ishwari Pardeshi | Backend Development | Express APIs, server-side logic, and database integration |
+| Nihira Rawade | AI & PDF Processing | Gemini integration, research-paper analysis, and PDF-processing workflow |
+
+### Collaboration Workflow
+
+- GitHub repository for centralized source-code management.
+- Branches for organizing changes by task.
+- Commits for recording code and documentation changes.
+- Pull requests for reviewing proposed changes before merging.
+- Shared documentation for project setup and coordination.
+
+*Note: The responsibilities above describe the team's planned work distribution. Individual contributions and completed tasks should be recorded accurately.*
