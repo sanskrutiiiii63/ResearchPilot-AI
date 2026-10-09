@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- telling the browser we ship both themes, so it stops flashing a white form control at people in dark mode. -->
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#efe9e1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f0e10" media="(prefers-color-scheme: dark)" />
+    <title>ResearchPilot AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Inter only matters on machines without SF Pro (hello, Windows). Macs will use the real thing, as God and Cupertino intended. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
